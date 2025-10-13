@@ -1,0 +1,56 @@
+.paralax-wrapper {
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+}
+.paralax {
+	width: 100%;
+	height: 100vh;
+	position: sticky;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.paralax div {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: calc(100vw - 8px);
+	height: 100vh;
+	translate: -50% 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.paralax img {
+	width: 235px;
+}
+#paralax-el-1 div {
+	background-image: url('../image/background-1/background.png');
+}
+#paralax-el-2 div {
+	background-image: url('../image/background-2/background.png');
+}
+#paralax-el-3 div {
+	background-image: url('../image/background-3/background.png');
+}
+#paralax-el-4 div {
+	background-image: url('../image/background-4/background.png');
+}
+#paralax-el-5 div {
+	background-image: url('../image/background-5/background.png');
+}
+#paralax-el-6 div {
+	background-image: url('../image/background-1/background-reverse.png');
+}
+
+@media screen and (max-width: 1440px) {
+	.paralax-wrapper {
+		width: 100vw;
+		left: 0;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.paralax img {
+		width: 140px;
+	}
+}

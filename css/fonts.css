@@ -1,0 +1,81 @@
+@font-face {
+	font-family: Manrope;
+	src: local('Manrope'), url(../fonts/Manrope-Bold.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Manrope;
+	src: local('Manrope'), url(../fonts/Manrope-Regular.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Oswald;
+	src: local('Oswald'), url(../fonts/Oswald-Medium.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: Oswald;
+	src: local('Oswald'), url(../fonts/Oswald-SemiBold.ttf);
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: PlayfairDisplay;
+	src: local('PlayfairDisplay'),
+		url(../fonts/PlayfairDisplay-Bold.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: PlayfairDisplay;
+	src: local('PlayfairDisplay'),
+		url(../fonts/PlayfairDisplay-Italic.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: PlayfairDisplay;
+	src: local('PlayfairDisplay'),
+		url(../fonts/PlayfairDisplay-Regular.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: RubikWetPaint;
+	src: local('RubikWetPaint'),
+		url(../fonts/RubikWetPaint-Regular.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Unbounded;
+	src: local('Unbounded'), url(../fonts/Unbounded-Bold.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Unbounded;
+	src: local('Unbounded'), url(../fonts/Unbounded-Medium.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: Unbounded;
+	src: local('Unbounded'), url(../fonts/Unbounded-Regular.woff2) format(woff2);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}

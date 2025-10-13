@@ -1,0 +1,117 @@
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-container {
+	position: relative;
+	max-width: 920px;
+	padding: 0 20px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+	padding-bottom: 130px;
+	padding-top: 130px;
+}
+
+.main-container:last-child {
+	margin-bottom: 0;
+}
+
+.main-accent-wrapper .main-title {
+	margin-bottom: 20px;
+}
+.main-text-wrapper .main-subtitle {
+	margin-bottom: 10px;
+}
+
+.main-text {
+	font-family: Manrope;
+	font-weight: 400;
+	font-size: 22px;
+}
+.main-title {
+	text-align: end;
+	font-size: 34px;
+}
+.main-subtitle {
+	font-size: 28px;
+	color: #94734d;
+	font-family: Manrope;
+	font-weight: 700;
+}
+
+.main-image-decoration {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+	text-align: center;
+}
+.main-decoration-text {
+	font-family: PlayfairDisplay;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+}
+.main-image-decoration img:first-child {
+	scale: -1 1;
+}
+.main-first-letter {
+	line-height: 100%;
+	font-size: 34px;
+}
+
+/* FONTS */
+.justify {
+	text-align: justify;
+}
+.font-unbounded {
+	font-family: Unbounded;
+}
+.font-manrope {
+	font-family: Manrope;
+}
+.font-rubikWetPaint {
+	font-family: RubikWetPaint;
+}
+.font-oswald {
+	font-family: Oswald;
+}
+.font-playfairDisplay {
+	font-family: PlayfairDisplay;
+}
+.bold {
+	font-weight: 700;
+}
+.semibold {
+	font-weight: 600;
+}
+.medium {
+	font-weight: 500;
+}
+.regular {
+	font-weight: 400;
+}
+.italic {
+	font-style: italic;
+}
+
+@media screen and (max-width: 1440px) {
+	.main-container {
+		max-width: calc(100% - 260px);
+		margin: 0;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.main-text {
+		font-size: 18px;
+	}
+
+	.main-title {
+		font-size: 28px;
+	}
+	.main-subtitle {
+		font-size: 22px;
+	}
+}

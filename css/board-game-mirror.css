@@ -1,0 +1,14 @@
+.boardGameMirror-container {
+	padding-top: 110px;
+}
+.boardGameMirror-icons img {
+	float: left;
+	margin: 9px 6px 0 0;
+}
+.boardGameMirror-icons li {
+	align-items: start;
+	vertical-align: middle;
+}
+.boardGameMirror-container .top {
+	margin-top: 110px;
+}

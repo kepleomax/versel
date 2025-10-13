@@ -1,0 +1,13 @@
+@import url('./fonts.css');
+@import url('./normalize.css');
+@import url('./global.css');
+@import url('./main.css');
+@import url('./paralax.css');
+
+@import url('./header.css');
+@import url('./board-game-mirror.css');
+@import url('./until20thCentury.css');
+@import url('./propaganda-leisure.css');
+@import url('./new-market.css');
+@import url('./modern.css');
+@import url('./end.css');

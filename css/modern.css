@@ -1,0 +1,15 @@
+.modern-howManyPlayers-image {
+	float: right;
+	margin: 10px -245px 0 40px;
+}
+.images-group-3 {
+	margin-top: 40px;
+	position: relative;
+	height: 245px;
+}
+.images-group-3 img {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	translate: -50% 0;
+}

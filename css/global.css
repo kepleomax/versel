@@ -1,0 +1,21 @@
+body {
+	overflow-x: clip;
+	color: #1e1e1e;
+}
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+	line-height: 170%;
+}
+
+html::-webkit-scrollbar {
+	width: 8px;
+	background-color: #282828;
+}
+html::-webkit-scrollbar-thumb {
+	background-color: #b4b4b4;
+}
