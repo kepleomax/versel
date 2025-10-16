@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Вторая страница - Настольные игры</title>
+		<link rel="stylesheet" href="./css/index.css" />
+		<script defer src='./progress.js'></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-progress">
+				<div class="progress-thumb" />
+			</div>
+		</header>
+		
+		<!-- Navigation buttons in upper left corner -->
+		<nav class="page-navigation">
+			<button class="nav-button" onclick="window.location.href='index.html'">Главная</button>
+			<button class="nav-button active" onclick="window.location.href='page2.html'">Страница 2</button>
+		</nav>
+		
+		<main class="main">
+			<section class="main-container">
+				<div class="main-accent-wrapper">
+					<h1 class="main-title font-unbounded font-semibold">
+						Это вторая страница
+					</h1>
+					<p class="main-text">
+						Добро пожаловать на вторую страницу сайта о настольных играх! 
+						Здесь вы можете найти дополнительную информацию или контент, 
+						который будет добавлен в будущем.
+					</p>
+				</div>
+				
+				<div class="main-text-wrapper">
+					<h2 class="main-subtitle">
+						О навигации
+					</h2>
+					<p class="main-text">
+						Используйте кнопки навигации в верхнем левом углу для переключения 
+						между страницами сайта. Кнопка "Главная" вернет вас на основную страницу 
+						с подробной историей настольных игр в России.
+					</p>
+				</div>
+				
+				<div class="main-text-wrapper">
+					<h2 class="main-subtitle">
+						Будущий контент
+					</h2>
+					<p class="main-text">
+						На этой странице в будущем может быть размещен дополнительный контент, 
+						связанный с настольными играми: галерея изображений, интерактивные элементы, 
+						дополнительные статьи или любые другие материалы.
+					</p>
+				</div>
+			</section>
+		</main>
+		
+		<style>
+			.page-navigation {
+				position: fixed;
+				top: 20px;
+				left: 20px;
+				z-index: 1000;
+				display: flex;
+				gap: 10px;
+			}
+			
+			.nav-button {
+				padding: 10px 20px;
+				background-color: rgba(255, 255, 255, 0.9);
+				border: 2px solid #333;
+				border-radius: 5px;
+				cursor: pointer;
+				font-family: inherit;
+				font-size: 14px;
+				font-weight: 500;
+				transition: all 0.3s ease;
+				backdrop-filter: blur(10px);
+			}
+			
+			.nav-button:hover {
+				background-color: #333;
+				color: white;
+				transform: translateY(-2px);
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+			
+			.nav-button.active {
+				background-color: #333;
+				color: white;
+			}
+			
+			.nav-button.active:hover {
+				background-color: #555;
+			}
+		</style>
+	</body>
+</html>
