@@ -18,6 +18,7 @@
 		<nav class="page-navigation">
 			<button class="nav-button" onclick="window.location.href='index.html'">Главная</button>
 			<button class="nav-button active" onclick="window.location.href='page2.html'">Страница 2</button>
+			<button class="nav-button contact-button" onclick="window.open('http://localhost:3000', '_blank')">Написать автору</button>
 		</nav>
 		
 		<main class="main">
@@ -94,6 +95,17 @@
 			
 			.nav-button.active:hover {
 				background-color: #555;
+			}
+
+			.contact-button {
+				background-color: rgba(148, 115, 77, 0.9);
+				color: white;
+				border-color: #94734d;
+			}
+
+			.contact-button:hover {
+				background-color: #94734d;
+				border-color: #94734d;
 			}
 		</style>
 	</body>
